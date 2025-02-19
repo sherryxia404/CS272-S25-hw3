@@ -29,9 +29,10 @@
     <section class="m-3">
         <h1>About Me</h1>
 
-        <div style="overflow: hidden; white-space: nowrap;">
-            Welcome to my website!</marquee>
+        <div>
+            <p>Welcome to my website!</p>
         </div>
+
 
         <img src="./cole.jpg" alt="Cole Nelson's profile photo" />
         <div class="display">
@@ -46,12 +47,23 @@
 
 
         <h2>Sign up for my newsletter!</h2>
-        <!-- When fixing this website, you don't need to make the form "work", but you do need to make it accessible :) -->
-        <form>
+        <form id="subscribe-form">
             <label for="email">Enter your email:</label>
             <input id="email" type="email" placeholder="your@example.com" required>
             <button type="submit">Subscribe</button>
         </form>
+
+        <!-- improve responsiveness -->
+        <script>
+            document.getElementById("subscribe-form").addEventListener("submit", function (event) {
+                event.preventDefault(); // Prevent form from refreshing the page
+                alert("Thank you for subscribing!");
+                this.reset(); // Clears the form input after submission
+            });
+        </script>
+
+
+
 
 
     </section>

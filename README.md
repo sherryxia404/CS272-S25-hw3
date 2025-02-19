@@ -22,21 +22,16 @@ If you have questions, please contact your instructor early!
 ## My Updates
 
 I changed the following... 
-1. Added Alternative text for cole's profile photo[About Me], cs571, cs272 photos [My Work]
-2. display the hidden Introduction
-3. change all pages language into English "en"
-4. Fixed the Inconsistent navigation bars
-5. Making the distracting animations still
-6. Adding label to inputs on email subscribe
-7. changed the back ground color
+1. Added alternative text for Cole's profile photo (About Me) and the CS571 and CS272 photos (My Work).
+2. Displayed the previously hidden introduction.
+3. Changed the language of all pages to English ("en").
+4. Fixed the inconsistent navigation bars.
+5. Stopped the distracting animations.
+6. Added labels to the email subscription input fields.
+7. Implemented a responsive pop-up window for successful email submissions.
+8. Changed the background color.
+9. Added the title "Cole Nelson - Personal Website" to the <head> section.
+10. Made the heading levels more logical and consistent.
 
 
-Reexam Required Modifications:
- - Meta information provided in the `head`
- - Missing heading levels
- - Images missing alternative text ✅ 写了
- - Text with low contrast ✅ change the back ground color 写了
- - Unlabelled inputs ✅写了
- - Distracting animations ✅make it still 写了
- - Inconsistent navigation bars ✅ 写了
- - Poor responsiveness
+
