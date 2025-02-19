@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,9 @@
     <link href="styles.css" rel="stylesheet" />
     <title>Cole Nelson - Personal Website</title>
 </head>
+
+
+
 
 <body>
     <header>
@@ -39,15 +42,18 @@
                 loan servicer.</p>
             <p>Interested in the intersection of Computer Science Education and Application Security? Let's talk!</p>
         </div>
-    </section>
 
-    <section>
-        <h1>Sign up for my newsletter!</h1>
+
+
+        <h2>Sign up for my newsletter!</h2>
         <!-- When fixing this website, you don't need to make the form "work", but you do need to make it accessible :) -->
         <form>
-            <input>
-            <button>SUBSCRIBE</button>
+            <label for="email">Enter your email:</label>
+            <input id="email" type="email" placeholder="your@example.com" required>
+            <button type="submit">Subscribe</button>
         </form>
+
+
     </section>
 </body>
 

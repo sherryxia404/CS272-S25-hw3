@@ -21,19 +21,22 @@ If you have questions, please contact your instructor early!
 
 ## My Updates
 
-I changed the following...
- - About Me
-    - Alternative text for cole's profile photo
-    - display Introduction
-    - 
+I changed the following... 
+1. Added Alternative text for cole's profile photo[About Me], cs571, cs272 photos [My Work]
+2. display the hidden Introduction
+3. change all pages language into English "en"
+4. Fixed the Inconsistent navigation bars
+5. Making the distracting animations still
+6. Adding label to inputs on email subscribe
+7. changed the back ground color
 
 
 Reexam Required Modifications:
  - Meta information provided in the `head`
  - Missing heading levels
- - Images missing alternative text ✅
- - Text with low contrast ✅ change the back ground color
- - Unlabelled inputs
- - Distracting animations ✅make it still
- - Inconsistent navigation bars ✅
+ - Images missing alternative text ✅ 写了
+ - Text with low contrast ✅ change the back ground color 写了
+ - Unlabelled inputs ✅写了
+ - Distracting animations ✅make it still 写了
+ - Inconsistent navigation bars ✅ 写了
  - Poor responsiveness
