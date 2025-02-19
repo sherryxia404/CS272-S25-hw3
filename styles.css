@@ -15,9 +15,20 @@ a {
     display: none;
 }
 
+/* Section styling */
+section {
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color: #ffffff74;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
 /* Navbar styling */
 .navbar {
-    background-color: #333;
+    background-color: hsl(0, 0%, 20%);
     padding: 10px;
 }
 
@@ -38,12 +49,5 @@ img {
     margin: 20px auto;
     max-width: 40%;
     height: auto;
-    border-radius: 20px;
-}
-
-/* Form styling */
-section {
-    margin: 20px;
-    padding: 20px;
     border-radius: 20px;
 }
