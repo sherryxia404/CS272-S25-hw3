@@ -22,7 +22,18 @@ If you have questions, please contact your instructor early!
 ## My Updates
 
 I changed the following...
- - List your
- - changes here!
- - ...
+ - About Me
+    - Alternative text for cole's profile photo
+    - display Introduction
+    - 
 
+
+Reexam Required Modifications:
+ - Meta information provided in the `head`
+ - Missing heading levels
+ - Images missing alternative text ✅
+ - Text with low contrast ✅ change the back ground color
+ - Unlabelled inputs
+ - Distracting animations ✅make it still
+ - Inconsistent navigation bars ✅
+ - Poor responsiveness
